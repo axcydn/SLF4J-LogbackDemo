@@ -1,16 +1,36 @@
-		ÆÕÍ¨ÅäÖÃ£º
-		¸´ÖÆÎÄ¼şµ½±àÒëÄ¿Â¼£º
+		æ™®é€šé…ç½®ï¼š
+		å¤åˆ¶æ–‡ä»¶åˆ°ç¼–è¯‘ç›®å½•ï¼š
 			slf4j-api-1.7.x.jar
 			logback-classic-1.2.x.jar
 			logback-core-1.2.x.jar
-			È»ºóÉèÖÃclasspathÎª¸ÃÄ¿Â¼±àÒëÀàËÆ46
-		eclipseÅäÖÃ£º
-			ÏîÄ¿ĞÂ½¨lib->¸´ÖÆÎÄ¼şµ½lib
+			ç„¶åè®¾ç½®classpathä¸ºè¯¥ç›®å½•ç¼–è¯‘ç±»ä¼¼46
+		eclipseé…ç½®ï¼š
+			é¡¹ç›®æ–°å»ºlib->å¤åˆ¶æ–‡ä»¶åˆ°lib
 			slf4j-api-1.7.x.jar
 			logback-classic-1.2.x.jar
 			logback-core-1.2.x.jar
-			->ÓÒ¼üÏîÄ¿µã»÷BuildPath->configure BuildPath>Library->µã»÷classpath->AddJARsÑ¡Ôñ¼´¿É
+			->å³é”®é¡¹ç›®ç‚¹å‡»BuildPath->configure BuildPath>Library->ç‚¹å‡»classpath->AddJARsé€‰æ‹©å³å¯
 			
-			slf4j£º
+			slf4jï¼š
 			import org.slf4j.Logger;
 			import org.slf4j.LoggerFactory;
+		mavené…ç½®ï¼š
+		        <dependency>
+			    <groupId>log4j</groupId>
+			    <artifactId>log4j</artifactId>
+			    <version>1.2.17</version>
+			</dependency>
+			<!-- log -->
+			<!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-api -->
+			<dependency>
+			    <groupId>org.slf4j</groupId>
+			    <artifactId>slf4j-api</artifactId>
+			    <version>1.7.25</version>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-log4j12 -->
+			<dependency>
+			    <groupId>org.slf4j</groupId>
+			    <artifactId>slf4j-log4j12</artifactId>
+			    <version>1.7.25</version>
+			    <!-- <scope>test</scope> -->
+			</dependency>
